@@ -1,0 +1,78 @@
+{
+    "name": "mu_aloha_platforms Build Environment",
+    "image": "ubuntu:24.04",
+    
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installZsh": true,
+            "configureZshAsDefaultShell": true,
+            "installOhMyZsh": true,
+            "upgradePackages": true,
+            "username": "root",
+            "userUid": "0",
+            "userGid": "0"
+        },
+        "ghcr.io/devcontainers/features/git:1": {
+            "version": "latest",
+            "ppa": true
+        },
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.12"
+        }
+    },
+    
+    "containerEnv": {
+        "CLANGPDB_BIN": "/usr/lib/llvm-18/bin/",
+        "CLANGPDB_AARCH64_PREFIX": "aarch64-linux-gnu-",
+        "GCC5_AARCH64_PREFIX": "aarch64-linux-gnu-"
+    },
+    
+    "postCreateCommand": "bash -c 'sudo apt-get update && sudo apt-get install -y build-essential uuid-dev iasl nasm python3-distutils python3-pip gcc-aarch64-linux-gnu clang llvm lld mono-devel nuget git-lfs curl wget zip unzip acpica-tools device-tree-compiler mkbootimg && pip install --upgrade -r pip-requirements.txt --break-system-packages'",
+    
+    "postStartCommand": "git submodule update --init --recursive || true",
+    
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-extension-pack",
+                "13xforever.language-x86-64-assembly",
+                "zhwu95.riscv",
+                "Arm.arm-debugger"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/bin/python3.12",
+                "editor.formatOnSave": true,
+                "files.trimTrailingWhitespace": true,
+                "C_Cpp.default.compilerPath": "/usr/bin/aarch64-linux-gnu-gcc",
+                "C_Cpp.default.intelliSenseMode": "linux-gcc-arm64"
+            }
+        }
+    },
+    
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolderBasename},type=bind,consistency=cached"
+    ],
+    
+    "workspaceFolder": "/workspaces/mu_aloha_platforms",
+    
+    "remoteUser": "root",
+    
+    "runArgs": [
+        "--cap-add=ALL",
+        "--security-opt", "seccomp=unconfined",
+        "--privileged"
+    ],
+
+    "forwardPorts": [],
+    
+    "portsAttributes": {},
+    
+    "hostRequirements": {
+        "cpus": 16,
+        "memory": "64gb",
+        "storage": "256gb"
+    }
+}
