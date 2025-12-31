@@ -1,0 +1,35 @@
+Target Info: 
+device zte-np05j
+platform Sm8850
+package KaanapaliPkg
+bootshim_uefi_base 0xFF300000
+bootshim_uefi_size 0x00400000
+Building bootshim:
+	UEFI BASE: 0xFF300000
+	UEFI_SIZE: 0x00400000
+clang --target=aarch64-linux-gnu -c BootShim.S -o BootShim.elf -DUEFI_BASE=0xFF300000 -DUEFI_SIZE=0x00400000
+llvm-objcopy -O binary BootShim.elf BootShim.bin
+Invoking Stuart
+     ) _     _
+    ( (^)-~-(^)
+__,-.\_( 0 0 )__,-.___
+  'W'   \   /   'W'
+         >o<
+Running stuart_build -c Platforms/KaanapaliPkg/PlatformBuildNoSb.py
+INFO - Log Started: Wednesday, December 31, 2025 03:48PM
+SECTION - Init Self Describing Environment
+INFO - Computing path for Mu-Basetools located at /home/user/mu_aloha_platforms/MU_BASECORE/BaseTools/Bin/Mu-Basetools_extdep on Host(os='Linux', arch='x86', bit='64')
+INFO - /home/user/mu_aloha_platforms/MU_BASECORE/BaseTools/Bin/Mu-Basetools_extdep/Linux-x86 was found!
+INFO - Computing path for Mu-Basetools located at /home/user/mu_aloha_platforms/MU_BASECORE/BaseTools/Bin/Mu-Basetools_extdep on Host(os='Linux', arch='x86', bit='64')
+INFO - /home/user/mu_aloha_platforms/MU_BASECORE/BaseTools/Bin/Mu-Basetools_extdep/Linux-x86 was found!
+ERROR - Dependency 'mu-uncrustify-release' is not met!
+INFO - Computing path for Mu-Basetools located at /home/user/mu_aloha_platforms/MU_BASECORE/BaseTools/Bin/Mu-Basetools_extdep on Host(os='Linux', arch='x86', bit='64')
+INFO - /home/user/mu_aloha_platforms/MU_BASECORE/BaseTools/Bin/Mu-Basetools_extdep/Linux-x86 was found!
+ERROR - Dependency 'mu_nasm' is not met!
+ERROR - Dependency 'edk2-acpica-iasl' is not met!
+Traceback (most recent call last):
+  File "/home/user/mu_aloha_platforms/Platforms/KaanapaliPkg/PlatformBuildNoSb.py", line 320, in <module>
+    Edk2PlatformBuild().Invoke()
+  File "/usr/local/lib/python3.11/dist-packages/edk2toolext/base_abstract_invocable.py", line 231, in Invoke
+    raise RuntimeError(
+RuntimeError: External Dependencies in the environment are out of date. Consider running stuart_update to possibly resolve this issue.

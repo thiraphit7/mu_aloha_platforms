@@ -1,0 +1,38 @@
+============================================================
+DTB Analysis: dtb_02.dtb
+============================================================
+
+✓ Valid DTB file
+
+Attempting to decompile DTB...
+✓ Successfully decompiled
+
+------------------------------------------------------------
+SOC INFORMATION
+------------------------------------------------------------
+Model: Qualcomm Technologies, Inc. Sun CDP Kiwi WLAN
+Compatible: qcom, sun-cdp\0qcom, sun\0qcom, sunp-cdp\0qcom, sunp\0qcom, cdp
+
+------------------------------------------------------------
+DISPLAY INFORMATION
+------------------------------------------------------------
+✓ Resolution: 1080x2340
+  Width: 1080
+  Height: 2340
+Panel Compatible:
+  - qcom,dp-display
+  - qcom,dsi-display
+  - qcom,dsi-display
+  - qcom,wb-display
+  - qcom,wb-display
+  - qcom,dsi-ctrl-hw-v2.9
+  - qcom,dsi-ctrl-hw-v2.9
+  - qcom,dsi-phy-v7.2
+  - qcom,dsi-phy-v7.2
+
+------------------------------------------------------------
+MEMORY INFORMATION
+------------------------------------------------------------
+× Memory information not found
+
+============================================================
