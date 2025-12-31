@@ -1,0 +1,18 @@
+SECTION - Init Self Describing Environment
+SECTION - Loading Plugins
+SECTION - Start Invocable Tool
+SECTION - Initial update of environment
+UpdatingWARNING - [SDE] Failed to fetch NugetDependecy: edk2-acpica-iasl@20230628.0.1: [Nuget] We failed to install this version 20230628.0.1 of edk2-acpica-iasl
+WARNING - [SDE] Failed to fetch NugetDependecy: mu-uncrustify-release@73.0.8: [Nuget] We failed to install this version 73.0.8 of mu-uncrustify-release
+WARNING - [SDE] Failed to fetch NugetDependecy: mu_nasm@20016.1.1: [Nuget] We failed to install this version 20016.1.1 of mu_nasm
+. Done
+SECTION - 	Updated/Verified 2 dependencies
+SECTION - Second pass update of environment
+UpdatingWARNING - [SDE] Failed to fetch NugetDependecy: mu-uncrustify-release@73.0.8: [Nuget] We failed to install this version 73.0.8 of mu-uncrustify-release
+WARNING - [SDE] Failed to fetch NugetDependecy: edk2-acpica-iasl@20230628.0.1: [Nuget] We failed to install this version 20230628.0.1 of edk2-acpica-iasl
+WARNING - [SDE] Failed to fetch NugetDependecy: mu_nasm@20016.1.1: [Nuget] We failed to install this version 20016.1.1 of mu_nasm
+. Done
+SECTION - 	Updated/Verified 2 dependencies
+ERROR - We were unable to successfully update 3 dependencies in environment
+SECTION - Summary
+ERROR - Error

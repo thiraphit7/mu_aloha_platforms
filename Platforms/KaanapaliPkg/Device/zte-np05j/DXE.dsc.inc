@@ -13,10 +13,8 @@
   ArmPkg/Drivers/ArmGicDxe/ArmGicDxe.inf
   ArmPkg/Drivers/TimerDxe/TimerDxe.inf
 
-  # EmbeddedPkg Drivers
+  # Core Drivers
   EmbeddedPkg/MetronomeDxe/MetronomeDxe.inf
-  EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
-  EmbeddedPkg/ResetRuntimeDxe/ResetRuntimeDxe.inf
 
   # AndromedaPkg Drivers
   AndromedaPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
