@@ -1,7 +1,7 @@
 [PcdsFixedAtBuild.common]
-# Display - PLACEHOLDER VALUES (need actual device specs)
+# Display - From DTB analysis (qcom,sun similar device, verified 1080x2340)
 gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2400
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340
 
 # Display Caller
 #gAndromedaPkgTokenSpaceGuid.PcdDisplayCallerExitDisableDisplay|FALSE
@@ -19,10 +19,10 @@ gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"kera"
 
 [PcdsDynamicDefault.common]
 gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080
-gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|2400
+gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|2340
 gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|1080
-gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|2400
+gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|2340
 gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutColumn|135  # = 1080 / EFI_GLYPH_WIDTH(8)
-gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|126     # = 2400 / EFI_GLYPH_HEIGHT(19)
+gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|123     # = 2340 / EFI_GLYPH_HEIGHT(19)
 gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|135       # = 1080 / EFI_GLYPH_WIDTH(8)
-gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|126          # = 2400 / EFI_GLYPH_HEIGHT(19)
+gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|123          # = 2340 / EFI_GLYPH_HEIGHT(19)

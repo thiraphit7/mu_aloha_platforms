@@ -1,0 +1,201 @@
+Reading DTBO/DTB image: np05j/dtbo_a.img
+Image size: 25165824 bytes
+
+Detected Android DTBO format
+DTBO Header:
+  Total size: 13194196
+  Header size: 32
+  Entry size: 32
+  Entry count: 37
+  Entries offset: 0x20
+  Page size: 4096
+  Version: 0
+
+DTB Entry 0:
+  Offset: 0x4C0
+  Size: 1490 bytes
+  Extracted to: dtb_00.dtb
+
+DTB Entry 1:
+  Offset: 0xA92
+  Size: 393156 bytes
+  Extracted to: dtb_01.dtb
+
+DTB Entry 2:
+  Offset: 0x60A56
+  Size: 394749 bytes
+  Extracted to: dtb_02.dtb
+
+DTB Entry 3:
+  Offset: 0xC1053
+  Size: 395498 bytes
+  Extracted to: dtb_03.dtb
+
+DTB Entry 4:
+  Offset: 0x12193D
+  Size: 317908 bytes
+  Extracted to: dtb_04.dtb
+
+DTB Entry 5:
+  Offset: 0x16F311
+  Size: 296923 bytes
+  Extracted to: dtb_05.dtb
+
+DTB Entry 6:
+  Offset: 0x1B7AEC
+  Size: 296131 bytes
+  Extracted to: dtb_06.dtb
+
+DTB Entry 7:
+  Offset: 0x1FFFAF
+  Size: 399220 bytes
+  Extracted to: dtb_07.dtb
+
+DTB Entry 8:
+  Offset: 0x261723
+  Size: 399220 bytes
+  Extracted to: dtb_08.dtb
+
+DTB Entry 9:
+  Offset: 0x2C2E97
+  Size: 461834 bytes
+  Extracted to: dtb_09.dtb
+
+DTB Entry 10:
+  Offset: 0x333AA1
+  Size: 169508 bytes
+  Extracted to: dtb_10.dtb
+
+DTB Entry 11:
+  Offset: 0x35D0C5
+  Size: 394370 bytes
+  Extracted to: dtb_11.dtb
+
+DTB Entry 12:
+  Offset: 0x3BD547
+  Size: 394393 bytes
+  Extracted to: dtb_12.dtb
+
+DTB Entry 13:
+  Offset: 0x41D9E0
+  Size: 396796 bytes
+  Extracted to: dtb_13.dtb
+
+DTB Entry 14:
+  Offset: 0x47E7DC
+  Size: 397037 bytes
+  Extracted to: dtb_14.dtb
+
+DTB Entry 15:
+  Offset: 0x4DF6C9
+  Size: 399440 bytes
+  Extracted to: dtb_15.dtb
+
+DTB Entry 16:
+  Offset: 0x540F19
+  Size: 395957 bytes
+  Extracted to: dtb_16.dtb
+
+DTB Entry 17:
+  Offset: 0x5A19CE
+  Size: 398360 bytes
+  Extracted to: dtb_17.dtb
+
+DTB Entry 18:
+  Offset: 0x602DE6
+  Size: 394137 bytes
+  Extracted to: dtb_18.dtb
+
+DTB Entry 19:
+  Offset: 0x66317F
+  Size: 398957 bytes
+  Extracted to: dtb_19.dtb
+
+DTB Entry 20:
+  Offset: 0x6C47EC
+  Size: 398957 bytes
+  Extracted to: dtb_20.dtb
+
+DTB Entry 21:
+  Offset: 0x725E59
+  Size: 388358 bytes
+  Extracted to: dtb_21.dtb
+
+DTB Entry 22:
+  Offset: 0x784B5F
+  Size: 396793 bytes
+  Extracted to: dtb_22.dtb
+
+DTB Entry 23:
+  Offset: 0x7E5958
+  Size: 395907 bytes
+  Extracted to: dtb_23.dtb
+
+DTB Entry 24:
+  Offset: 0x8463DB
+  Size: 389303 bytes
+  Extracted to: dtb_24.dtb
+
+DTB Entry 25:
+  Offset: 0x8A5492
+  Size: 387984 bytes
+  Extracted to: dtb_25.dtb
+
+DTB Entry 26:
+  Offset: 0x904022
+  Size: 391459 bytes
+  Extracted to: dtb_26.dtb
+
+DTB Entry 27:
+  Offset: 0x963945
+  Size: 390140 bytes
+  Extracted to: dtb_27.dtb
+
+DTB Entry 28:
+  Offset: 0x9C2D41
+  Size: 391307 bytes
+  Extracted to: dtb_28.dtb
+
+DTB Entry 29:
+  Offset: 0xA225CC
+  Size: 393412 bytes
+  Extracted to: dtb_29.dtb
+
+DTB Entry 30:
+  Offset: 0xA82690
+  Size: 395220 bytes
+  Extracted to: dtb_30.dtb
+
+DTB Entry 31:
+  Offset: 0xAE2E64
+  Size: 393962 bytes
+  Extracted to: dtb_31.dtb
+
+DTB Entry 32:
+  Offset: 0xB4314E
+  Size: 395075 bytes
+  Extracted to: dtb_32.dtb
+
+DTB Entry 33:
+  Offset: 0xBA3891
+  Size: 379014 bytes
+  Extracted to: dtb_33.dtb
+
+DTB Entry 34:
+  Offset: 0xC00117
+  Size: 169145 bytes
+  Extracted to: dtb_34.dtb
+
+DTB Entry 35:
+  Offset: 0xC295D0
+  Size: 437787 bytes
+  Extracted to: dtb_35.dtb
+
+DTB Entry 36:
+  Offset: 0xC943EB
+  Size: 4073 bytes
+  Extracted to: dtb_36.dtb
+
+============================================================
+Extraction complete!
+Extracted 37 DTB(s) to np05j/extracted_dtbs
