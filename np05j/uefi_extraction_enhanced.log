@@ -1,0 +1,27 @@
+Reading UEFI image: np05j/uefi_a.img
+Image size: 5242880 bytes
+Found 1 firmware volume(s)
+
+Processing firmware volume #0 at offset 0x1000
+Found file: FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF (Type: FFS_PAD, Size: 4000)
+Found file: 8AF09F13-44C5-96EC-1437-DD899CB5EE5D (Type: SECURITY_CORE, Size: 311320)
+Extracted: 8AF09F13-44C5-96EC-1437-DD899CB5EE5D_SECURITY_CORE_00.raw (RAW, 3888 bytes)
+Extracted: 8AF09F13-44C5-96EC-1437-DD899CB5EE5D_SECURITY_CORE_01.te (TE, 307400 bytes)
+Found file: DDE58710-41CD-4306-DBFB-3FA90BB1D2DD (Type: FREEFORM, Size: 561)
+Extracted: uefiplat.cfg.raw (RAW, 501 bytes)
+Found file: 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792 (Type: FIRMWARE_VOLUME_IMAGE, Size: 650088)
+  → This is a nested firmware volume, processing recursively...
+Found file: D14C51ED-4F4D-2F2D-EAE4-77914692D046 (Type: FIRMWARE_VOLUME_IMAGE, Size: 558912)
+  → This is a nested firmware volume, processing recursively...
+Found file: FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF (Type: UNKNOWN, Size: 7)
+Found file: 00000000-0007-0000-1800-000000000000 (Type: UNKNOWN, Size: 144)
+Found file: 00000000-0000-0000-0000-000000000000 (Type: UNKNOWN, Size: 4)
+Found file: 00000000-0000-0000-0000-000000000000 (Type: UNKNOWN, Size: 1399382)
+
+Extraction complete!
+Extracted 3 file(s) to Platforms/KaanapaliPkg/Device/zte-np05j/Binaries
+
+File type summary:
+  .efi files: 0
+  .te files: 1
+  .raw files: 2
